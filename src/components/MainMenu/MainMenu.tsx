@@ -88,7 +88,7 @@ function MainMenu() {
                 }}
               >
                 <Mail sx={{ color: "#ea1f1f", fontSize: "1rem" }} />{" "}
-                cmcmotors.com
+                autoreconcollision.com
               </Link>
             </Box>
             <Box
@@ -227,29 +227,9 @@ function MainMenu() {
                 pr: 2
               }}
             >
+              
               <NavLink
-                to="/get-vehicle"
-                style={({ isActive }) => ({
-                  backgroundColor: isActive ? "#ed1f1f" : "initial",
-                })}
-              >
-                <Button
-                  variant="contained"
-                  sx={{
-                    width: { xs: "auto", lg: "15vw" },
-                    textTransform: "capitalize",
-                    color: "#fff",
-                    bgcolor: "#ed1f1f",
-                    ":hover": {
-                      bgcolor: "#ed1f1f",
-                    },
-                  }}
-                >
-                  get vehicle
-                </Button>
-              </NavLink>
-              <NavLink
-                to="/shop-parts"
+                to="/used-cars"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
@@ -266,7 +246,7 @@ function MainMenu() {
                     border: "1px solid #bdbdbd",
                   }}
                 >
-                  Shop for parts
+                  Used Inventory
                 </Button>
               </NavLink>
               <NavLink
@@ -290,7 +270,7 @@ function MainMenu() {
                 </Button>
               </NavLink>
               <NavLink
-                to="/shop-parts"
+                to="/admin"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
