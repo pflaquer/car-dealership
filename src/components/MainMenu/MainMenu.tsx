@@ -57,7 +57,7 @@ function MainMenu() {
               }}
             >
               <Link
-                href="tel:(+254) 125 876 423"
+                href="tel:4257870811"
                 sx={{
                   fontSize: "0.8rem",
                   display: "flex",
@@ -71,7 +71,7 @@ function MainMenu() {
                 }}
               >
                 <Call sx={{ color: "#ea1f1f", fontSize: "1.2rem" }} />
-                (+254) 125 876 423
+                425 787 0811
               </Link>
               <Link
                 href="mailto:cmcmotors.com"
