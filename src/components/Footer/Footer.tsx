@@ -386,7 +386,7 @@ function Footer() {
           }}
         >
           <Typography>
-            Copyright ©Sepia. All Rights Reserved.{" "}
+            Copyright ©Auto Recon USA. All Rights Reserved.{" "}
             <NavLink
               to="privacy-policy"
               style={{color: '#c1c1c1'}}
