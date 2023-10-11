@@ -235,7 +235,7 @@ function MainMenu() {
                 })}
               >
                 <Button
-                  variant="outlined"
+                  variant="contained"
                   sx={{
                     width: { xs: "auto", lg: "15vw" },
                     textTransform: "capitalize",
@@ -246,7 +246,7 @@ function MainMenu() {
                     border: "1px solid #bdbdbd",
                   }}
                 >
-                  Used Inventory
+                  Used Autos
                 </Button>
               </NavLink>
               <NavLink
