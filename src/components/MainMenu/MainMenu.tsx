@@ -408,7 +408,7 @@ function MenuDrawer() {
                 }}
               >
                 <Call sx={{ color: "#ea1f1f", fontSize: "0.7rem" }} />
-                (+254) 125 876 423
+                (425)-787-0811
               </Link>
               <Link
                 href="mailto:cmcmotors.com"
