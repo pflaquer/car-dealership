@@ -275,10 +275,10 @@ function Footer() {
                     color: "#ED1F1F",
                   },
                 }}
-                href="tel:(+254) 123 456 789"
+                href="tel:4257870811"
               >
                 {" "}
-                (+254) 123 456 789
+                425 787 0811
               </Link>
               <br />
 
@@ -290,7 +290,7 @@ function Footer() {
                     color: "#ED1F1F",
                   },
                 }}
-                href="mailto:enquiries@cmcmotors.com"
+                href="mailto:sales@autoreconcollision.com"
               >
                 enquiries@cmcmotors.com
               </Link>
@@ -404,7 +404,7 @@ function Footer() {
               to="privacy-policy"
               style={{color: '#c1c1c1'}}
             >
-              www.sepia.co.ke
+              www.PXDR0.com
             </NavLink>
           </Typography>
         </Box>
