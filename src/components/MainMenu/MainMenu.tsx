@@ -289,6 +289,27 @@ function MainMenu() {
                   After sales
                 </Button>
               </NavLink>
+              <NavLink
+                to="/shop-parts"
+                style={({ isActive }) => ({
+                  backgroundColor: isActive ? "#ed1f1f" : "initial",
+                })}
+              >
+                <Button
+                  variant="outlined"
+                  sx={{
+                    width: { xs: "auto", lg: "15vw" },
+                    textTransform: "capitalize",
+                    color: "#bdbdbd",
+                    ":hover": {
+                      color: "#ed1f1f",
+                    },
+                    border: "1px solid #bdbdbd",
+                  }}
+                >
+                  Admin Login
+                </Button>
+              </NavLink>
             </Box>
           </Box>
         </>
