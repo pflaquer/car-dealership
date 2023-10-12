@@ -15,6 +15,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.logo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
