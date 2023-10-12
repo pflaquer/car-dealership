@@ -209,7 +209,7 @@ function MainMenu() {
               <NavLink to="/">
                 <img
                   src={cmc}
-                  className="logo"
+                  className="autologo"
                 />
               </NavLink>
         
