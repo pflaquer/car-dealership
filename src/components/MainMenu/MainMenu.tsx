@@ -528,7 +528,7 @@ function MenuDrawer() {
               <NavLink to="/">
                 <img
                   src={cmc}
-                  width={25}
+                  width={96}
                 />
               </NavLink>
             </Button>
