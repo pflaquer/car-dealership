@@ -178,7 +178,7 @@ function MainMenu() {
             </Box>
           </Box>
 
-          <Box sx={{ display: "flex", pb: 2, bgcolor: "#fff" }}>
+          <Box sx={{ display: "flex", pb: 2, bgcolor: "#000000" }}>
             <Box
               sx={{
                 height: "2rem",
