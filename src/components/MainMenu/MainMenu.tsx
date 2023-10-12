@@ -200,12 +200,10 @@ function MainMenu() {
                   fontSize: "0.8rem",
                   display: "flex",
                   alignItems: "center",
-                  gap: 0.2,
                   textDecoration: "none",
                   height: "2rem",
-                  background:
-                    "linear-gradient(90deg, rgba(43,45,66,1) 1%, rgba(252,12,35,1) 78%)",
-                  width: "11vw",
+                  background: "#000000",
+                  width: "96px",
                 }}
               />
               <NavLink to="/">
