@@ -211,7 +211,7 @@ function MainMenu() {
               <NavLink to="/">
                 <img
                   src={cmc}
-                  width={35}
+                  className="logo"
                 />
               </NavLink>
         
