@@ -74,7 +74,7 @@ function MainMenu() {
                 425 787 0811
               </Link>
               <Link
-                href="mailto:cmcmotors.com"
+                href="mailto:sales@autoreconcollision.com"
                 sx={{
                   fontSize: "0.8rem",
                   display: "flex",
