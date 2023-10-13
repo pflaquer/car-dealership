@@ -527,7 +527,7 @@ function MenuDrawer() {
                 <img
                   src={cmc}
                   width={96}
-                  className="logos"
+                  className="autologo"
                 />
               </NavLink>
             </Button>
