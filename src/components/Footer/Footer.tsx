@@ -62,12 +62,10 @@ function Footer() {
             textAlign: "left",
           }}
         >
-          <Typography>Lorem ipsum</Typography>
+          <Typography>About Us</Typography>
 
           <Typography>
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud
+            Auto Recon Collision is a leading collision and auto sales center located in Lynnwood WA.  All of our vehicles are well taken care of and customers can rest assured knowing they are getting behind the wheel of a quality vehicle.
           </Typography>
 
           <NavLink to="/about">
@@ -292,10 +290,10 @@ function Footer() {
                 }}
                 href="mailto:sales@autoreconcollision.com"
               >
-                enquiries@cmcmotors.com
+                sales@autoreconcollision.com
               </Link>
               <br />
-              <Typography>Nairobi Kenya</Typography>
+              <Typography>Auto Recon USA</Typography>
             </address>
           </Box>
         </Box>
