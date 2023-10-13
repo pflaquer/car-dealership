@@ -181,7 +181,7 @@ function MainMenu() {
           <Box sx={{ display: "flex", pb: 2, bgcolor: "#fff" }}>
             <Box
               sx={{
-                height: "96px",
+                height: "2rem",
                 clipPath: "polygon(0 0, 100% 0, 90% 100%, 0 100%)",
                 py: 1.2,
                 px: 4,
@@ -200,7 +200,7 @@ function MainMenu() {
                   display: "flex",
                   alignItems: "center",
                   textDecoration: "none",
-                  height: "96px",
+                  height: "2rem",
                   background: "linear-gradient(90deg, rgba(43,45,66,1) 14%, rgba(2,0,36,0.85) 53%)",
                   width: "96px",
                 }}
