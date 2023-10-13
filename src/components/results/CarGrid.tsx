@@ -127,7 +127,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                         component="span"
                         sx={{ color: "#ed1f1f" }}
                       >
-                        Ksh {car.price}
+                        ${car.price}
                       </Typography>
                     </Typography>
                   </Box>
