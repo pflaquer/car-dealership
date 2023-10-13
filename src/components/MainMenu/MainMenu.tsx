@@ -195,6 +195,18 @@ function MainMenu() {
                 justifyContent: "flex-start",
               }}
             >
+
+                 <Box
+                sx={{
+                  fontSize: "0.8rem",
+                  display: "flex",
+                  alignItems: "center",
+                  textDecoration: "none",
+                  height: "2rem",
+                  background: "linear-gradient(90deg, rgba(43,45,66,1) 14%, rgba(2,0,36,0.85) 53%)",
+                  width: "96px",
+                }}
+              />
            
               <NavLink to="/">
                 <img
@@ -202,7 +214,7 @@ function MainMenu() {
                   className="autologo"
                 />
               </NavLink>
-        
+        </Box>
     
             <Box
               sx={{
