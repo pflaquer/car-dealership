@@ -391,7 +391,7 @@ function MenuDrawer() {
               }}
             >
               <Link
-                href="tel:(+254) 125 876 423"
+                href="tel:4257870811"
                 sx={{
                   fontSize: "0.65rem",
                   display: "flex",
