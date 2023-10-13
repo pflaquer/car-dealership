@@ -343,7 +343,7 @@ function MenuDrawer() {
             <img
               src={cmc}
               width={35}
-              className="autologo"
+              height={35}
             />
           </NavLink>
         </Button>
