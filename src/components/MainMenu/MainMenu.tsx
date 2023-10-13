@@ -410,7 +410,7 @@ function MenuDrawer() {
                 (425)-787-0811
               </Link>
               <Link
-                href="mailto:cmcmotors.com"
+                href="tel:4257870811"
                 sx={{
                   fontSize: "0.65rem",
                   display: "flex",
@@ -424,7 +424,7 @@ function MenuDrawer() {
                 }}
               >
                 <Mail sx={{ color: "#ea1f1f", fontSize: "0.6rem" }} />
-                cmcmotors.com
+                dealer.autoreconcollision.com
               </Link>
             </Box>
 
@@ -527,6 +527,7 @@ function MenuDrawer() {
                 <img
                   src={cmc}
                   width={96}
+                  className="logos"
                 />
               </NavLink>
             </Button>
