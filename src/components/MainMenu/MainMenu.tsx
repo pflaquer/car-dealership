@@ -343,16 +343,14 @@ function MenuDrawer() {
             <img
               src={cmc}
               width={35}
+              className="autologo"
             />
           </NavLink>
         </Button>
       </Box>
       <List>
         {[
-          "Our Range",
-          "Tractors & Implements",
           "Vehicles",
-          "Two Wheelers",
           "Aftersales",
           "About Us",
           "Contact Us",
