@@ -223,7 +223,7 @@ function CarGallery({ car }: { car: any }) {
                   fontSize: "0.8rem",
                 }}
               >
-                <Typography>USED QUALITY VEHICLES</Typography>
+                <Typography>{match}</Typography>
                 <Button
                   variant="contained"
                   disableElevation
