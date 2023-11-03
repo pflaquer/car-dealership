@@ -93,7 +93,7 @@ function MainMenu() {
             </Box>
             <Box
               sx={{
-                height: "2rem",
+                height: "10rem",
                 bgcolor: "#e11d1d",
                 clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0 100%)",
                 //   py: 0.5,
