@@ -209,7 +209,15 @@ function MainMenu() {
 
     
         </Box>
-    
+
+    <NavLink to="/">
+                <img
+                  src={cmc}
+                  className="autologo"
+                  borderRadius="50%"
+                />
+              </NavLink>
+            
             <Box
               sx={{
                 bgcolor: "#fff",
