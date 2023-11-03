@@ -29,7 +29,7 @@ function MainMenu() {
     <>
       <AppBar
         elevation={0}
-        sx={{ bgcolor: "#000000", display: { xs: "none", md: "block" } }}
+        sx={{ bgcolor: "#fff", display: { xs: "none", md: "block" } }}
       >
         <>
           <Box sx={{ display: "flex" }}>
