@@ -188,7 +188,7 @@ function MainMenu() {
                 pr: 8,
                 display: "flex",
                 alignItems: "center",
-                gap: 2,
+                gap: 0,
                 flexGrow:{md: 3.4, lg: 2},
                 justifyContent: "flex-start",
               }}
