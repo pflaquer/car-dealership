@@ -35,7 +35,7 @@ function MainMenu() {
           <Box sx={{ display: "flex" }}>
             <Box
               sx={{
-                height: "10rem",
+                height: "2rem",
                 flexGrow:{md: 3.4, lg: 2},
                 bgcolor: "#000000",
                 clipPath: "polygon(0 0, 100% 0, 96% 100%, 0% 100%)",
@@ -45,7 +45,7 @@ function MainMenu() {
             />
             <Box
               sx={{
-                height: "10rem",
+                height: "2rem",
                 bgcolor: "#282a3e",
                 clipPath: "polygon(4% 0, 100% 0, 95% 100%, 0 100%)",
                 px: 4,
@@ -93,7 +93,7 @@ function MainMenu() {
             </Box>
             <Box
               sx={{
-                height: "10rem",
+                height: "2rem",
                 bgcolor: "#e11d1d",
                 clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0 100%)",
                 //   py: 0.5,
@@ -198,6 +198,8 @@ function MainMenu() {
                 <img
                   src={cmc}
                   className="autologo"
+                  width={256}
+                  height={256}
                 />
               </NavLink>
 
