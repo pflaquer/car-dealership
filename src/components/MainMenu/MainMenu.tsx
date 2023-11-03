@@ -343,8 +343,8 @@ function MenuDrawer() {
           >
             <img
               src={cmc}
-              width={96}
-              height={96}
+              width={128}
+              height={128}
               
             />
           </NavLink>
@@ -352,8 +352,8 @@ function MenuDrawer() {
       </Box>
       <List>
         {[
-          "Vehicles",
-          "Aftersales",
+          "Used Vehicles",
+          "Repairs",
           "About Us",
           "Contact Us",
         ].map((text, index) => (
