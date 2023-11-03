@@ -222,8 +222,8 @@ function MainMenu() {
                 display: "flex",
                 alignItems: "flex-end",
                 justifyContent: "flex-end",
-                gap: 3,
-                pr: 2
+                gap: 1,
+                pr: 1
               }}
             >
               
@@ -249,7 +249,7 @@ function MainMenu() {
                 </Button>
               </NavLink>
               <NavLink
-                to="/repair"
+                to={{pathname: "https://www.autoreconcollision.com"}} target="_blank"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
