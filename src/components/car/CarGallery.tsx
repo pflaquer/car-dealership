@@ -175,8 +175,9 @@ function CarGallery({ car }: { car: any }) {
                       borderRadius: 0,
                       width: "20vw",
                       textTransform: "capitalize",
-                      color: "#fff",
+                      color: "#000000",
                       bgcolor: "#ed1f1f",
+                      opacity: .7,
                       ":hover": {
                         bgcolor: "#ed1f1f",
                       },
