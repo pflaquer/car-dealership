@@ -329,6 +329,7 @@ function MenuDrawer() {
           display: "flex",
           justifyContent: "space-between",
           width: "100%",
+          height: "10rem",
         }}
       >
         <Button sx={{ width: "100%" }}>
