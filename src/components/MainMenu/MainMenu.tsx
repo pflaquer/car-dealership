@@ -35,7 +35,7 @@ function MainMenu() {
           <Box sx={{ display: "flex" }}>
             <Box
               sx={{
-                height: "2rem",
+                height: "10rem",
                 flexGrow:{md: 3.4, lg: 2},
                 bgcolor: "#000000",
                 clipPath: "polygon(0 0, 100% 0, 96% 100%, 0% 100%)",
