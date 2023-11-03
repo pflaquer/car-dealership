@@ -194,6 +194,13 @@ function MainMenu() {
               }}
             >
 
+              <NavLink to="/">
+                <img
+                  src={cmc}
+                  className="autologo"
+                />
+              </NavLink>
+
                  <Box
                 sx={{
                   fontSize: "0.8rem",
@@ -207,7 +214,7 @@ function MainMenu() {
                 }}
               />
            
-              <NavLink to="/">
+             <NavLink to="/">
                 <img
                   src={cmc}
                   className="autologo"
