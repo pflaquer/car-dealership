@@ -249,7 +249,7 @@ function MainMenu() {
                 </Button>
               </NavLink>
               <NavLink
-                to="/after-sales"
+                to="https://www.autoreconcollision.com"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
@@ -265,7 +265,7 @@ function MainMenu() {
                     border: "1px solid #bdbdbd",
                   }}
                 >
-                  After sales
+                  Auto Repair Services
                 </Button>
               </NavLink>
               <NavLink
