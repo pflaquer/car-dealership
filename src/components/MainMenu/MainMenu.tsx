@@ -249,7 +249,7 @@ function MainMenu() {
                 </Button>
               </NavLink>
               <NavLink
-                to={{pathname: "https://www.autoreconcollision.com"}} target="_blank"
+                to="/repair" target="_blank"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
