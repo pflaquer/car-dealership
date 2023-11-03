@@ -37,7 +37,7 @@ function MainMenu() {
               sx={{
                 height: "2rem",
                 flexGrow:{md: 3.4, lg: 2},
-                bgcolor: "#000000",
+                bgcolor: "gray",
                 clipPath: "polygon(0 0, 100% 0, 96% 100%, 0% 100%)",
                 mr: {md: 0, lg: -5},
                 px: 4,
