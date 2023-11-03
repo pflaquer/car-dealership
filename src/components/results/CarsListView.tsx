@@ -203,7 +203,7 @@ function CarsListView({
                   <IconButton title="Location">
                     <PinDropOutlined sx={{ color: "#ff4605" }} />{" "}
                   </IconButton>
-                  Nairobi, Kenya
+                  Lynnwood, WA
                 </Typography>
               </Box>
             </Box>
