@@ -23,6 +23,8 @@ function CarGallery({ car }: { car: any }) {
     cursor: "pointer",
   };
 
+  const match = "Find Your Match";
+  
   const indicatorStyles: CSSProperties = {
     background: "#fff",
     width: 8.5,
@@ -164,7 +166,7 @@ function CarGallery({ car }: { car: any }) {
                   width: "40vw",
                 }}
               >
-                <Typography sx={{ color: "#fff" }}>FIND YOUR MATCH</Typography>
+                <Typography sx={{ color: "#fff" }}>{match}</Typography>
                 <Box sx={{ color: "#fff" }}>
                   <Button
                     variant="contained"
@@ -180,12 +182,11 @@ function CarGallery({ car }: { car: any }) {
                       },
                     }}
                   >
-                    THE NEW MAZDA CX 30
+                    QUALITY, USED AUTOS
                   </Button>
                 </Box>
                 <Typography>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                  iusto repudiandae assumenda quam, minus nesciunt?
+                  Providing quality, used, affordable auto mobiles for sale in the greater Seattle area
                 </Typography>
                 <Box>
                   <Button
@@ -202,7 +203,7 @@ function CarGallery({ car }: { car: any }) {
                       },
                     }}
                   >
-                    GET QUOTE
+                    CHECK INVENTORY
                   </Button>
                 </Box>
               </Box>
@@ -221,7 +222,7 @@ function CarGallery({ car }: { car: any }) {
                   fontSize: "0.8rem",
                 }}
               >
-                <Typography>THE NEW MAZDA CX 30</Typography>
+                <Typography>USED QUALITY VEHICLES</Typography>
                 <Button
                   variant="contained"
                   disableElevation
@@ -234,7 +235,7 @@ function CarGallery({ car }: { car: any }) {
                     },
                   }}
                 >
-                  GET QUOTE
+                  CHECK INVENTORY
                 </Button>
               </Box>
             </Box>
