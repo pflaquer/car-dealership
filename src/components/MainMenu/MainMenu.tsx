@@ -203,6 +203,7 @@ function MainMenu() {
                 <img
                   src={cmc}
                   className="autologo"
+                  borderRadius="50%"
                 />
               </NavLink>
 
