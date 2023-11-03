@@ -200,10 +200,11 @@ function MainMenu() {
               }}
             >
 
-              <NavLink to="/">
+              <NavLink to="/" style={{ backgroundColor: "#000000" }}>
                 <img
                   src={cmc}
                   className="autologo"
+                  
                   
                 />
               </NavLink>
