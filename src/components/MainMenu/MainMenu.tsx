@@ -45,7 +45,7 @@ function MainMenu() {
             />
             <Box
               sx={{
-                height: "2rem",
+                height: "10rem",
                 bgcolor: "#282a3e",
                 clipPath: "polygon(4% 0, 100% 0, 95% 100%, 0 100%)",
                 px: 4,
