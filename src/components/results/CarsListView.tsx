@@ -235,7 +235,7 @@ function CarsListView({
                   textOverflow="ellipsis"
                   sx={{ color: "#ff4605", width: "fit-content" }}
                 >
-                  $.{car.price}
+                  $ {car.price}
                 </Typography>
                 <Box
                   sx={{
