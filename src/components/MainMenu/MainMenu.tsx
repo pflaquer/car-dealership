@@ -198,8 +198,6 @@ function MainMenu() {
                 <img
                   src={cmc}
                   className="autologo"
-                  width={256}
-                  height={256}
                 />
               </NavLink>
 
