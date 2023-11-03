@@ -200,9 +200,9 @@ function MainMenu() {
                   display: "flex",
                   alignItems: "center",
                   textDecoration: "none",
-                  height: "4rem",
-                  background: "linear-gradient(90deg, rgba(43,45,66,1) 14%, rgba(2,0,36,0.85) 53%)",
-                  width: "96px",
+                  height: "6rem",
+                  //background: "linear-gradient(90deg, rgba(43,45,66,1) 14%, rgba(2,0,36,0.85) 53%)",
+                  width: "156px",
                 }}
               />
            
