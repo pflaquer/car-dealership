@@ -215,7 +215,7 @@ function MainMenu() {
             
             <Box
               sx={{
-                bgcolor: "#fff",
+                bgcolor: "#000000",
                 width: "100%",
                 display: "flex",
                 alignItems: "flex-end",
