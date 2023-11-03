@@ -181,7 +181,7 @@ function MainMenu() {
           <Box sx={{ 
         display: "flex", 
         pb: 2, 
-        bgcolor: "#fff" 
+        bgcolor: "#000000" 
       }}>
             <Box
               sx={{
@@ -196,7 +196,7 @@ function MainMenu() {
                 flexGrow:{md: 3.4, lg: 2},
                 justifyContent: "flex-start",
                 overflow: "visible",
-                bgcolor: "#fff",
+                bgcolor: "#000000",
               }}
             >
 
