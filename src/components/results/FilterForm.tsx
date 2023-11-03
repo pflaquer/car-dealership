@@ -320,7 +320,7 @@ function FilterForm({ getPrice }: { getPrice: any }) {
                   width: "90%",
                 }}
               >
-                Ksh {cars[3].price}
+                $ {cars[3].price}
               </Button>
             </Box>
             <Box sx={{ px: 2 }}>
