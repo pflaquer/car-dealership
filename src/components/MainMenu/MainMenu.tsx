@@ -178,10 +178,14 @@ function MainMenu() {
             </Box>
           </Box>
 
-          <Box sx={{ display: "flex", pb: 2, bgcolor: "#fff" }}>
+          <Box sx={{ 
+        display: "flex", 
+        pb: 2, 
+        bgcolor: "#fff" 
+      }}>
             <Box
               sx={{
-                height: "10rem",
+                height: "2rem",
                 clipPath: "polygon(0 0, 100% 0, 90% 100%, 0 100%)",
                 py: 1.2,
                 px: 4,
@@ -191,6 +195,7 @@ function MainMenu() {
                 gap: 0,
                 flexGrow:{md: 3.4, lg: 2},
                 justifyContent: "flex-start",
+                overflow: "visible"
               }}
             >
 
