@@ -210,13 +210,7 @@ function MainMenu() {
     
         </Box>
 
-    <NavLink to="/">
-                <img
-                  src={cmc}
-                  className="autologo"
-               
-                />
-              </NavLink>
+
             
             <Box
               sx={{
