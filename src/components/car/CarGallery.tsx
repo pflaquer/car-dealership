@@ -23,7 +23,7 @@ function CarGallery({ car }: { car: any }) {
     cursor: "pointer",
   };
 
-  const match = "Find Your Match";
+  const match = "FIND YOUR MATCH";
   
   const indicatorStyles: CSSProperties = {
     background: "#fff",
