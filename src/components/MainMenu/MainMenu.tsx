@@ -343,8 +343,9 @@ function MenuDrawer() {
           >
             <img
               src={cmc}
-              width={35}
-              height={35}
+              width={96}
+              height={96}
+              overflow="visible"
             />
           </NavLink>
         </Button>
