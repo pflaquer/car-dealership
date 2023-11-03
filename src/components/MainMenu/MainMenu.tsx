@@ -195,7 +195,8 @@ function MainMenu() {
                 gap: 0,
                 flexGrow:{md: 3.4, lg: 2},
                 justifyContent: "flex-start",
-                overflow: "visible"
+                overflow: "visible",
+                bgcolor: "#fff",
               }}
             >
 
