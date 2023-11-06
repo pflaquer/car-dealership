@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 
 function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 0] | null }) {
 
+ const handleClick = (e) => {
+    e.preventDefault();
+    console.log('The link was clicked.');
+  }
+  
   const [carsToShow, setCarsToShow] = React.useState<CarInterface[]>([]);
 
   React.useEffect(() => {
@@ -245,7 +250,8 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                       </Button>
                     </NavLink>
                     <NavLink to="/quote">
-                      <Button
+                      <Button 
+                        onClick={handleClick}
                         disableElevation={true}
                         sx={{
                           py: 0.5,
