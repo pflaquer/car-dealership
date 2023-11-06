@@ -33,6 +33,7 @@ function CarsListView({
   const handleLike = (event: { preventDefault: () => void }) => {
     event.preventDefault();
     setIsLiked((isLiked) => !isLiked);
+    alert('liked!');
   };
 
   React.useEffect(() => {
