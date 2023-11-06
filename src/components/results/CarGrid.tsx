@@ -246,6 +246,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                     </NavLink>
                     <NavLink to="/quote">
                       <Button
+                        onClick = {alert('clicked!')}
                         disableElevation={true}
                         sx={{
                           py: 0.5,
