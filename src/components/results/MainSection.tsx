@@ -42,7 +42,7 @@ function MainSection({ isGridView }: { isGridView: Boolean }) {
 
         <Box sx={{ my: 2 }}>
           <Pagination
-            count={5}
+            count={7}
             variant="outlined"
             shape="rounded"
             color="secondary"
