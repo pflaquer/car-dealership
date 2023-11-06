@@ -50,6 +50,7 @@ function Models() {
     // event.stopPropagation()
     if (!event.target.classList.contains("active")) {
       event.target.classList.add("active");
+      alert('clicked!');
     }
   }
 
