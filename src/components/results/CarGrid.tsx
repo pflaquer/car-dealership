@@ -221,7 +221,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                           color: "#c1c1c1",
                         }}
                       >
-                        Qx8qx8imZ
+                        {car.id}
                       </Typography>
                     </Typography>
                   </Box>
@@ -256,7 +256,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                           ":hover": { bgcolor: "#ed1f1f" },
                         }}
                       >
-                        get quote
+                        Send Inquiry
                       </Button>
                     </NavLink>
                   </Box>
