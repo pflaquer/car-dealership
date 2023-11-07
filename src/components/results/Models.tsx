@@ -121,6 +121,7 @@ function Models() {
                   >
                     {car.name}
                   </Typography>
+                  onClick={handleClick}
                 </Box>
               </motion.div>
             </>
