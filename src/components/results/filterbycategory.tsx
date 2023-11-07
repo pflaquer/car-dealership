@@ -42,9 +42,9 @@ const FilterByCategory: React.FC = () => {
       
       <ul>
         {filteredProducts.map((car) => (
-          <li key={car.id}>
+          <button><li key={car.id}>
             {car.name} - ${car.price}
-          </li>
+          </li></button>
         ))}
       </ul>
     </div>
