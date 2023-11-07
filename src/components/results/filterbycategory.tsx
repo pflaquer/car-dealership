@@ -52,3 +52,12 @@ const FilterByCategory: React.FC = () => {
 };
 
 export default FilterByCategory;
+
+
+//export const App: FC<{ name: string }> = ({ name }) => {
+  //return (
+    //<div>
+     // <FilterByProductCategory />
+    //</div>
+ // );
+//};
