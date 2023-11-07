@@ -10,7 +10,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
  const handleClick = (e) => {
     e.preventDefault();
     console.log('The link was clicked.');
-  alert('clicked!');
+  
   }
   
   const [carsToShow, setCarsToShow] = React.useState<CarInterface[]>([]);
@@ -233,7 +233,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                   </Box>
                   <Box>
                     <NavLink
-                      to={car.id}
+                      to="/description"
                       state={car}
                     >
                       <Button
