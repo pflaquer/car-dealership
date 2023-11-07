@@ -17,8 +17,9 @@ function Results() {
         // gap: 2,
       }}
     >
-      <Models />
       <ResultsHeader />
+      <Models />
+      
       {/* <MainSection isGridView={true} /> */}
     </Container>
   );
