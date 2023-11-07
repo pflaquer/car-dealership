@@ -7,8 +7,9 @@ import { motion } from "framer-motion";
 
 function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 0] | null }) {
 
- const handleClick = (e) => {
+ const handleClick = (e : any) => {
     e.preventDefault();
+  alert('Clicked');
  }
   
   const [carsToShow, setCarsToShow] = React.useState<CarInterface[]>([]);
