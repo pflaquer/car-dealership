@@ -112,6 +112,7 @@ function Models() {
                     },
                     transition: "0.25s ease-in-out",
                   }}
+                  onClick={handleCarClick}
                 >
                   <img
                     src={car.image}
@@ -125,7 +126,7 @@ function Models() {
                   >
                     {car.name}
                   </Typography>
-                  onClick={handleCarClick}
+                  
                 </Box>
               </motion.div>
             </>
