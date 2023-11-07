@@ -34,6 +34,7 @@ const FilterByCategory: React.FC = () => {
 
   return (
     <div>
+      <button value="" onClick={handleCategoryChange}>All</button>
       <button value="suv" onClick={handleCategoryChange}>SUV </button>
       <button value="sedan" onClick={handleCategoryChange}>Sedan </button>
       <button value="convertible" onClick={handleCategoryChange}>Convertible </button>
