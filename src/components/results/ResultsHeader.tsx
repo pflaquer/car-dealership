@@ -29,6 +29,7 @@ import React from "react";
 import CarGrid from "./CarGrid";
 import CarsListView from "./CarsListView";
 import MainSection from "./MainSection";
+import FilterByCategory from "./filterbycategory";
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -268,6 +269,7 @@ function ResultsHeader() {
           </Tooltip>
         </Box>
       </Box>
+      <FilterByCategory />
       <MainSection isGridView={isGridView} />
     </Box>
   );
