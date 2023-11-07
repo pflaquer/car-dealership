@@ -9,9 +9,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
 
  const handleClick = (e) => {
     e.preventDefault();
-    console.log('The link was clicked.');
-  
-  }
+ }
   
   const [carsToShow, setCarsToShow] = React.useState<CarInterface[]>([]);
 
