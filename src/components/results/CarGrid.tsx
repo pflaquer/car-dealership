@@ -236,6 +236,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                       state={car}
                     >
                       <Button
+                       onClick={handleClick}
                         disableElevation={true}
                         sx={{
                           py: 0.5,
