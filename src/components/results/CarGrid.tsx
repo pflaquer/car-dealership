@@ -233,7 +233,7 @@ function CarGrid({ isGridView, carPrice }: { isGridView: Boolean, carPrice: [0, 
                   </Box>
                   <Box>
                     <NavLink
-                      to="/description"
+                      to={car.id}
                       state={car}
                     >
                       <Button
