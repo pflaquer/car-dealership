@@ -268,7 +268,7 @@ function ResultsHeader() {
           </Tooltip>
         </Box>
       </Box>
-      <MainSection isGridView={isGridView} />
+      <MainSection isGridView={isListView} />
     </Box>
   );
 }
