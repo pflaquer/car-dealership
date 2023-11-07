@@ -46,11 +46,15 @@ function Models() {
     dragControls.start(event, { snapToCursor: true });
   }
 
+  function handleCarClick(e : any){
+    e.preventDefault();
+    alert('clicked');
+  }
+  
   function handleClick(event: any) {
     // event.stopPropagation()
     if (!event.target.classList.contains("active")) {
       event.target.classList.add("active");
-      alert('clicked!');
     }
   }
 
@@ -121,7 +125,7 @@ function Models() {
                   >
                     {car.name}
                   </Typography>
-                  onClick={handleClick}
+                  onClick={handleCarClick}
                 </Box>
               </motion.div>
             </>
