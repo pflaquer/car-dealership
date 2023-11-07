@@ -112,7 +112,7 @@ function Models() {
                     },
                     transition: "0.25s ease-in-out",
                   }}
-                  onClick={handleCarClick(this}
+                  onClick={handleCarClick(this)}
                 >
                   <img
                     src={car.image}
