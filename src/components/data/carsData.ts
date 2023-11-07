@@ -19,6 +19,7 @@ export interface CarInterface {
   safetyFeatures: string[];
   transmission: string;
   fuelType: string;
+  vehicleType: string;
 }
 
 export const cars: CarInterface[] = [
@@ -44,6 +45,7 @@ export const cars: CarInterface[] = [
     ],
     transmission: "Automatic",
     fuelType: "Diesel",
+    vehicleType: "SUV",
   },
   {
     id: 2,
@@ -67,6 +69,7 @@ export const cars: CarInterface[] = [
     ],
     transmission: "Automatic",
     fuelType: "Diesel",
+    vehicleType: "Sedan",
   },
 
   {
@@ -91,6 +94,7 @@ export const cars: CarInterface[] = [
     ],
     transmission: "Automatic",
     fuelType: "Diesel",
+    vehicleType: "Sedan",
   },
   {
     id: 4,
@@ -114,6 +118,7 @@ export const cars: CarInterface[] = [
     ],
     transmission: "Automatic",
     fuelType: "Diesel",
+    vehicleType: "Sedan",
   },
   {
     id: 5,
@@ -137,5 +142,6 @@ export const cars: CarInterface[] = [
     ],
     transmission: "Automatic",
     fuelType: "Diesel",
+    vehicleType: "Sedan",
   },
 ];
