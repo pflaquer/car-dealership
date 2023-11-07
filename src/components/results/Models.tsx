@@ -48,7 +48,7 @@ function Models() {
 
   function handleCarClick(e : any){
     e.preventDefault();
-    alert(e);
+    alert('clicked! ok!');
   }
   
   function handleClick(event: any) {
@@ -112,7 +112,7 @@ function Models() {
                     },
                     transition: "0.25s ease-in-out",
                   }}
-                  onClick={handleCarClick(this)}
+                  onClick={handleCarClick}
                 >
                   <img
                     src={car.image}
