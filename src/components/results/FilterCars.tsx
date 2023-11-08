@@ -79,5 +79,5 @@ const FilterCars: React.FC = () => {
   );
 };
 
-export default FilterCars
+export default FilterCars;
 
