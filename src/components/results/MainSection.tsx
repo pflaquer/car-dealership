@@ -3,6 +3,7 @@ import React from "react";
 import CarGrid from "./CarGrid";
 import CarsListView from "./CarsListView";
 import FilterForm from "./FilterForm";
+import FilterView from "./FilterView";
 
 function MainSection({ isGridView }: { isGridView: Boolean }) {
   const [carPrice, setCarPrice] = React.useState<[0, 0]|null>(null)
@@ -27,6 +28,7 @@ function MainSection({ isGridView }: { isGridView: Boolean }) {
         }}
       >
         <FilterForm getPrice={setCarPrice}/>
+        <FilterView />
       </Box>
       <Box className="right" sx={{ flexGrow: 1 }}>
         <Box>
