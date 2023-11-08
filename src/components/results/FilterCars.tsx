@@ -1,4 +1,9 @@
 import { FC, useState, useEffect } from 'react'; 
+import { Star } from "@mui/icons-material";
+import { Box, Button, IconButton, Typography } from "@mui/material";
+import { NavLink } from "react-router-dom";
+import { CarInterface, cars } from "../data/carsData";
+import { motion } from "framer-motion";
 
 import React from "react";
 
