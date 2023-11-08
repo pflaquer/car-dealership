@@ -102,9 +102,9 @@ function FilterForm({ getPrice }: { getPrice: any }) {
     getPrice(value);
   };
 
-  const handleClick = (event: any)=>{
-    alert('clicked!');
-  }
+  //const handleClick = (event: any)=>{
+    //alert('clicked!');
+  //}
   //const handleClick = (event: Event, newValue: string) =>{
     //setValue(newValue as string);
     //getPrice(value);
@@ -439,7 +439,6 @@ function FilterForm({ getPrice }: { getPrice: any }) {
                   },
                   borderRadius: 0,
                   width: "90%",
-                  onClick={handleClick}
                 }}
               >
                 GET QUOTE
