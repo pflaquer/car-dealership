@@ -248,7 +248,7 @@ function MainMenu() {
                 </Button>
               </NavLink>
               <NavLink
-                to="/repair" target="_blank"
+                to="/financing" target="_blank"
                 style={({ isActive }) => ({
                   backgroundColor: isActive ? "#ed1f1f" : "initial",
                 })}
@@ -264,7 +264,7 @@ function MainMenu() {
                     border: "1px solid #bdbdbd",
                   }}
                 >
-                  Auto Repair Services
+                  Financing
                 </Button>
               </NavLink>
               <NavLink
@@ -353,7 +353,6 @@ function MenuDrawer() {
       <List>
         {[
           "Used Vehicles",
-          "Repairs",
           "About Us",
           "Contact Us",
         ].map((text, index) => (
