@@ -28,7 +28,7 @@ function MainSection({ isGridView }: { isGridView: Boolean }) {
         }}
       >
         <FilterForm getPrice={setCarPrice}/>
-        <FilterCars />
+       
       </Box>
       <Box className="right" sx={{ flexGrow: 1 }}>
         <Box>
